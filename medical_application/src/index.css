@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
+.navigation-buttons {
+  margin: 1rem 0;
+}
+
+.navigation-buttons .btn {
+  margin: 0 1rem;
+}
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+header {
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  border: 1px solid #000;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  border-bottom: 1px solid #000;
+  padding: 1rem;
+}
+
+.sidebar li a {
+  text-decoration: none;
+}
+
+.register-form,
+.token-form,
+.search-file-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.success-msg {
+  color: #296a29;
+}
+
+.error-msg {
+  color: #ff0000;
+}
+
+.login-btn {
+  margin-left: 1rem;
+}
+
+.account-type {
+  margin-bottom: 1rem;
+}
+
+.patient-file {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.patient-file > div {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 50px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.medication-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.medication-list li {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+
+.patient-prescriptions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.patient-prescriptions li {
+  border-bottom: 1px solid #000;
+  padding: 1rem 0;
+}
+
+.prescription-form-section {
+  display: flex;
+}
+
+.prescription-form-section .prescription-details,
+.pharmacist-profile {
+  margin-left: 2rem;
+}
+
+.qr-code-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-qr-btn {
+  margin-bottom: 1rem;
+}
+
+.upload-qr-section {
+  margin-top: 1rem;
+}
+
+.patient-profile {
+  display: block;
+  margin-left: 2rem;
+  width: 600px;
+}
+
+.patient-profile div {
+  margin: 6px 0;
+}
+
+.patient-file .form-label {
+  font-weight: bold;
+}
+
+.patient-profile .date-selector {
+  width: 50%;
+}
+
+.patient-otc {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}

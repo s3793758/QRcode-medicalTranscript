@@ -1,0 +1,125 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;901&lt;/x&gt;&lt;y&gt;449&lt;/y&gt;&lt;w&gt;150&lt;/w&gt;&lt;h&gt;50&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=1
+m2=1
+has&lt;/panel_attributes&gt;&lt;additional_attributes&gt;130;20;10;20&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;&lt;diagram program="umletino" version="14.4.0-SNAPSHOT"&gt;&lt;zoom_level&gt;10&lt;/zoom_level&gt;&lt;element&gt;&lt;id&gt;Relation&lt;/id&gt;&lt;coordinates&gt;&lt;x&gt;990&lt;/x&gt;&lt;y&gt;340&lt;/y&gt;&lt;w&gt;100&lt;/w&gt;&lt;h&gt;140&lt;/h&gt;&lt;/coordinates&gt;&lt;panel_attributes&gt;lt=-
+m1=0..n
+m2=0..1
+teaches to &amp;gt;&lt;/panel_attributes&gt;&lt;additional_attributes&gt;10;10;10;120&lt;/additional_attributes&gt;&lt;/element&gt;&lt;/diagram&gt;Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>1120</x><y>730</y><w>210</w><h>190</h></coordinates><panel_attributes>Pharmacist Images
+-
+-Id
+Patient
+Pharmacist
+prescriptionDate
+prescriptionImage</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1110</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Pharmacists
+-
+Id
+email
+password
+First Name
+Last Name
+gender
+Date Of Brith
+Address
+Phone NUmber
+Created At
+Updated At
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>140</x><y>170</y><w>210</w><h>190</h></coordinates><panel_attributes>Prescriptons Images
+-
+-ID
+patient
+prescriptionDate
+prescriptionImage
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>150</y><w>210</w><h>190</h></coordinates><panel_attributes>Doctors
+-
+-Id
+Email
+Password
+First Name
+Last Name
+Gender
+Date Of Brith
+Address
+Phone Number
+Clinic
+Hospital
+Created At
+Updated At</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Patient Files
+-
+-Id
+Patient
+Condition
+physicalCondition
+treatmentPlan
+allergy Reactions Medicines
+medication Taking Records
+createdAt
+updatedAt
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>480</x><y>720</y><w>210</w><h>190</h></coordinates><panel_attributes>Patient OTC
+-
+-Id
+Patient
+otcSupplement
+selectedDate
+createdAt
+updatedAt
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>170</y><w>210</w><h>190</h></coordinates><panel_attributes>Prescription
+-
+-Id
+docotor
+paiteint
+medicationName
+dosage
+dosage Unit
+number of Pills
+created At
+Updated At </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>450</y><w>210</w><h>190</h></coordinates><panel_attributes>Patients
+-
+-Id
+email
+password
+First Name
+Last Name
+gender
+Date Of Brith
+Address
+Phone NUmber
+Created At
+Updated At
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>329</y><w>50</w><h>140</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0.M
+has</panel_attributes><additional_attributes>10;10;10;120</additional_attributes></element><element><id>Relation</id><coordinates><x>681</x><y>519</y><w>120</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>100;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>981</x><y>509</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>561</x><y>349</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=M
+has</panel_attributes><additional_attributes>10;100;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>341</x><y>239</y><w>150</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>130;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>629</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>1223</x><y>630</y><w>50</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+has</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>
